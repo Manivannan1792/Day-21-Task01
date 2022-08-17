@@ -1,0 +1,59 @@
+input[type="number"] {
+    width: 40%;
+}
+
+input[type="number"]:hover {
+    transform: translateY(2px);
+    box-shadow: 2px 2px 20px 2px rgb(230, 230, 215);
+}
+
+input[placeholder] {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.kural {
+    background-color: gray;
+    padding: 8px;
+    font-family: serif;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.explainfont {
+    font-family: cursive;
+}
+
+.container {
+    padding: 20px 60px;
+    text-align: justify;
+}
+
+.d-flex {
+    justify-content: space-around;
+}
+
+@media all and (max-width:480px) {
+    .container,
+    #title {
+        width: 100%;
+        display: block;
+        padding: 5px;
+        font-size: 80%;
+    }
+}
+
+@media all and (max-width:600px) {
+    .flex {
+        flex-direction: column;
+    }
+}
+
+@media all and (max-width:480px) {
+    .btn {
+        display: flex;
+        font-size: 85%;
+    }
+}
